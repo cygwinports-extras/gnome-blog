@@ -1,0 +1,164 @@
+gnome-blog
+------------------------------------------
+gnome-blog is a GNOME panel object (aka applet) that can post to
+bloggerAPI compatible blogs including blogger.com, pyblosxom, and
+moveable-type.
+
+Runtime requirements:
+  cygwin-1.5.20-1
+  pygconf2-2.12.2-1
+  pygnome2-2.12.2-1
+  pygnomeapplet-2.14.0-1
+  pygnomevfs2-2.12.3-1
+  pygobject2-2.10.1-1
+  pygtk2-2.8.6-1
+  pygtkspell-2.14.0-1
+  python-2.4.3-1
+  pyxml-0.8.4-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.20-1
+  autoconf2.5-2.59-2
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.2.2-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  intltool-0.35.0-1
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.5-1
+
+Canonical website:
+  http://www.gnome.org/~seth/gnome-blog/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/gnome/sources/gnome-blog/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-blog-0.9.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-blog-0.9.1-X.cygport all
+
+This will create:
+  /usr/src/gnome-blog-0.9.1-X-src.tar.bz2
+  /usr/src/gnome-blog-0.9.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/gconf/schemas/gnomeblog.schemas
+  /etc/postinstall/gnome-blog.sh
+  /etc/preremove/gnome-blog.sh
+  /usr/bin/gnome-blog-poster
+  /usr/lib/bonobo/servers/GNOME_BlogApplet.server
+  /usr/lib/panel-2.0/blog_applet.py
+  /usr/lib/python2.4/site-packages/gnomeblog/MetaWeblog.py
+  /usr/lib/python2.4/site-packages/gnomeblog/MetaWeblog.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/MetaWeblog.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/__init__.py
+  /usr/lib/python2.4/site-packages/gnomeblog/__init__.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/__init__.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/advogato.py
+  /usr/lib/python2.4/site-packages/gnomeblog/advogato.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/advogato.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/aligned_window.py
+  /usr/lib/python2.4/site-packages/gnomeblog/aligned_window.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/aligned_window.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/blog.py
+  /usr/lib/python2.4/site-packages/gnomeblog/blog.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/blog.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/blog_applet.py
+  /usr/lib/python2.4/site-packages/gnomeblog/blog_applet.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/blog_applet.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/blog_poster.py
+  /usr/lib/python2.4/site-packages/gnomeblog/blog_poster.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/blog_poster.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/bloggerAPI.py
+  /usr/lib/python2.4/site-packages/gnomeblog/bloggerAPI.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/bloggerAPI.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/blogger_prefs.py
+  /usr/lib/python2.4/site-packages/gnomeblog/blogger_prefs.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/blogger_prefs.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/gconf_widgets.py
+  /usr/lib/python2.4/site-packages/gnomeblog/gconf_widgets.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/gconf_widgets.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/gnome-blog-poster
+  /usr/lib/python2.4/site-packages/gnomeblog/gnome_blog_globals.py
+  /usr/lib/python2.4/site-packages/gnomeblog/gnome_blog_globals.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/gnome_blog_globals.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/hig_alert.py
+  /usr/lib/python2.4/site-packages/gnomeblog/hig_alert.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/hig_alert.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/html_converter.py
+  /usr/lib/python2.4/site-packages/gnomeblog/html_converter.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/html_converter.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/livejournal.py
+  /usr/lib/python2.4/site-packages/gnomeblog/livejournal.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/livejournal.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/proxy.py
+  /usr/lib/python2.4/site-packages/gnomeblog/proxy.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/proxy.pyo
+  /usr/lib/python2.4/site-packages/gnomeblog/rich_entry.py
+  /usr/lib/python2.4/site-packages/gnomeblog/rich_entry.pyc
+  /usr/lib/python2.4/site-packages/gnomeblog/rich_entry.pyo
+  /usr/share/applications/gnome-blog.desktop
+  /usr/share/doc/Cygwin/gnome-blog-0.9.1.README
+  /usr/share/doc/gnome-blog-0.9.1/AUTHORS
+  /usr/share/doc/gnome-blog-0.9.1/COPYING
+  /usr/share/doc/gnome-blog-0.9.1/ChangeLog
+  /usr/share/doc/gnome-blog-0.9.1/INSTALL
+  /usr/share/doc/gnome-blog-0.9.1/NEWS
+  /usr/share/doc/gnome-blog-0.9.1/README
+  /usr/share/doc/gnome-blog-0.9.1/TODO
+  /usr/share/gnome-2.0/ui/GNOME_BlogApplet.xml
+  /usr/share/locale/az/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/bg/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/ca/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/cs/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/de/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/en_CA/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/es/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/et/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/fi/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/fr/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/gl/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/hr/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/hu/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/it/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/ja/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/ms/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/nb/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/ne/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/nl/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/pl/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/pt/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/rw/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/sq/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/sr/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/sr@Latn/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/sv/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/uk/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/vi/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/gnome-blog.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/gnome-blog.mo
+  /usr/share/pixmaps/gnome-blog.png
+
+------------------
+
+Port Notes:
+
+----- version 0.9.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
