@@ -1,5 +1,5 @@
 category: Gnome Web
-requires: python pygconf2 pygnome2 pygnomeapplet pygnomevfs2 pygtk2 pygtkspell pygobject2 pyxml
+requires: python python-gconf2 python-gnome2 python-gnomeapplet python-gnomevfs2 python-gtk2 python-gtkspell python-gobject2 python-xml
 sdesc: "GNOME blogging application and panel applet"
 ldesc: "gnome-blog is a GNOME panel object (aka applet) that can post to
 bloggerAPI compatible blogs including blogger.com, pyblosxom, and

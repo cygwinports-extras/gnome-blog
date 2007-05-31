@@ -1,0 +1,8 @@
+inherit gnome2
+
+DESCRIPTION="GNOME blogging application and panel applet"
+HOMEPAGE="http://www.gnome.org/~seth/gnome-blog/"
+
+DIFF_EXCLUDES="gnome_blog_globals.py"
+
+CYGCONF_ARGS="--libexecdir=/usr/lib/panel-2.0"

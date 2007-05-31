@@ -5,30 +5,30 @@ bloggerAPI compatible blogs including blogger.com, pyblosxom, and
 moveable-type.
 
 Runtime requirements:
-  cygwin-1.5.20-1
-  pygconf2-2.12.2-1
-  pygnome2-2.12.2-1
-  pygnomeapplet-2.14.0-1
-  pygnomevfs2-2.12.3-1
-  pygobject2-2.10.1-1
-  pygtk2-2.8.6-1
-  pygtkspell-2.14.0-1
-  python-2.4.3-1
-  pyxml-0.8.4-1
+  cygwin-1.5.24-2
+  python-2.5.1-1
+  python-gconf2-2.18.2-1
+  python-gnome2-2.18.2-1
+  python-gnomeapplet-2.18.0-1
+  python-gnomevfs2-2.18.2-1
+  python-gobject2-2.12.3-2
+  python-gtk2-2.10.4-2
+  python-gtkspell-2.14.3-1
+  python-xml-0.8.4-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.20-1
-  autoconf2.5-2.59-2
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.2.2-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  intltool-0.35.0-1
-  make-3.80-1
-  pkg-config-0.20-1
-  sed-4.1.5-1
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  intltool-0.35.5-1
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
 
 Canonical website:
   http://www.gnome.org/~seth/gnome-blog/
@@ -59,55 +59,55 @@ Files included in the binary package:
   /usr/bin/gnome-blog-poster
   /usr/lib/bonobo/servers/GNOME_BlogApplet.server
   /usr/lib/panel-2.0/blog_applet.py
-  /usr/lib/python2.4/site-packages/gnomeblog/MetaWeblog.py
-  /usr/lib/python2.4/site-packages/gnomeblog/MetaWeblog.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/MetaWeblog.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/__init__.py
-  /usr/lib/python2.4/site-packages/gnomeblog/__init__.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/__init__.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/advogato.py
-  /usr/lib/python2.4/site-packages/gnomeblog/advogato.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/advogato.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/aligned_window.py
-  /usr/lib/python2.4/site-packages/gnomeblog/aligned_window.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/aligned_window.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/blog.py
-  /usr/lib/python2.4/site-packages/gnomeblog/blog.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/blog.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/blog_applet.py
-  /usr/lib/python2.4/site-packages/gnomeblog/blog_applet.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/blog_applet.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/blog_poster.py
-  /usr/lib/python2.4/site-packages/gnomeblog/blog_poster.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/blog_poster.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/bloggerAPI.py
-  /usr/lib/python2.4/site-packages/gnomeblog/bloggerAPI.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/bloggerAPI.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/blogger_prefs.py
-  /usr/lib/python2.4/site-packages/gnomeblog/blogger_prefs.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/blogger_prefs.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/gconf_widgets.py
-  /usr/lib/python2.4/site-packages/gnomeblog/gconf_widgets.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/gconf_widgets.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/gnome-blog-poster
-  /usr/lib/python2.4/site-packages/gnomeblog/gnome_blog_globals.py
-  /usr/lib/python2.4/site-packages/gnomeblog/gnome_blog_globals.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/gnome_blog_globals.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/hig_alert.py
-  /usr/lib/python2.4/site-packages/gnomeblog/hig_alert.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/hig_alert.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/html_converter.py
-  /usr/lib/python2.4/site-packages/gnomeblog/html_converter.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/html_converter.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/livejournal.py
-  /usr/lib/python2.4/site-packages/gnomeblog/livejournal.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/livejournal.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/proxy.py
-  /usr/lib/python2.4/site-packages/gnomeblog/proxy.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/proxy.pyo
-  /usr/lib/python2.4/site-packages/gnomeblog/rich_entry.py
-  /usr/lib/python2.4/site-packages/gnomeblog/rich_entry.pyc
-  /usr/lib/python2.4/site-packages/gnomeblog/rich_entry.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/MetaWeblog.py
+  /usr/lib/python2.5/site-packages/gnomeblog/MetaWeblog.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/MetaWeblog.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/__init__.py
+  /usr/lib/python2.5/site-packages/gnomeblog/__init__.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/__init__.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/advogato.py
+  /usr/lib/python2.5/site-packages/gnomeblog/advogato.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/advogato.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/aligned_window.py
+  /usr/lib/python2.5/site-packages/gnomeblog/aligned_window.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/aligned_window.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/blog.py
+  /usr/lib/python2.5/site-packages/gnomeblog/blog.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/blog.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/blog_applet.py
+  /usr/lib/python2.5/site-packages/gnomeblog/blog_applet.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/blog_applet.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/blog_poster.py
+  /usr/lib/python2.5/site-packages/gnomeblog/blog_poster.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/blog_poster.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/bloggerAPI.py
+  /usr/lib/python2.5/site-packages/gnomeblog/bloggerAPI.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/bloggerAPI.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/blogger_prefs.py
+  /usr/lib/python2.5/site-packages/gnomeblog/blogger_prefs.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/blogger_prefs.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/gconf_widgets.py
+  /usr/lib/python2.5/site-packages/gnomeblog/gconf_widgets.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/gconf_widgets.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/gnome-blog-poster
+  /usr/lib/python2.5/site-packages/gnomeblog/gnome_blog_globals.py
+  /usr/lib/python2.5/site-packages/gnomeblog/gnome_blog_globals.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/gnome_blog_globals.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/hig_alert.py
+  /usr/lib/python2.5/site-packages/gnomeblog/hig_alert.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/hig_alert.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/html_converter.py
+  /usr/lib/python2.5/site-packages/gnomeblog/html_converter.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/html_converter.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/livejournal.py
+  /usr/lib/python2.5/site-packages/gnomeblog/livejournal.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/livejournal.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/proxy.py
+  /usr/lib/python2.5/site-packages/gnomeblog/proxy.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/proxy.pyo
+  /usr/lib/python2.5/site-packages/gnomeblog/rich_entry.py
+  /usr/lib/python2.5/site-packages/gnomeblog/rich_entry.pyc
+  /usr/lib/python2.5/site-packages/gnomeblog/rich_entry.pyo
   /usr/share/applications/gnome-blog.desktop
   /usr/share/doc/Cygwin/gnome-blog-0.9.1.README
   /usr/share/doc/gnome-blog-0.9.1/AUTHORS
@@ -155,6 +155,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.9.1-2 -----
+Rebuilt for python-2.5.
 
 ----- version 0.9.1-1 -----
 Initial release for Cygwin.
